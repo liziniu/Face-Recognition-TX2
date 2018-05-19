@@ -35,11 +35,11 @@
 
 - Python 2.7或3.x(我使用的是2.7, 因为安装opencv方便)
 
-- Python依赖库：numpy, PIL, scipy, opencv, face_recognition
+- Python依赖库：numpy, PIL, scipy, opencv, [face_recognition](https://github.com/ageitgey/face_recognition)
 
 - opencv可以直接使用apt-get安装python-opencv，因为我们只需要opencv读取视频，不需要opencv处理
 
-- face_recognition依赖dlib, 需要提前编译dlib
+- [face_recognition](https://github.com/ageitgey/face_recognition)依赖dlib, 需要提前编译dlib
 
 3.连接摄像头。如果使用了USB分裂器，请确保电影供电充足。
 
