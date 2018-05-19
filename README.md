@@ -6,22 +6,6 @@
   <img src="https://github.com/liziniu/face_cognition/blob/master/face_recognition.gif">
 </div>
 
-## 知识要求
-1. Linux命令行。会简单的安装命令即可。
-
-2. Python编程。会写for、while循环，熟悉list、dict数据结构、文件操作即可。
-
-3. 线性代数。理解矩阵乘法即可，注意这不是必须，仅仅为了方便理解人脸识别原理。
-
-4. 高等数学。理解倒数、梯度即可，注意这也不是必须，仅仅为了方便理解人脸识别原理。
-
-5. 窗口程序编写。会简单部件的使用即可，即使不会也没关系，it is easy.
-
-6. 多线程。理解程序的并发执行即可，注意这也不是必须，仅仅为了理解程序运行原理。 
-
-7. Github。会从Github下载程序，阅读别人的文档说明即可。
-
-
 ## 硬件要求
 下面是我购买的硬件，总计约500元。部分给出了淘宝连接。
 
@@ -41,3 +25,28 @@
 4.独立显示器。最好HDMI接口，因为这是树莓派的接口，没有的话需要购买VGA转HDMI转接口。
 
 5.USB摄像头(600万像素，30元）。
+
+
+## 如何使用
+
+1.为树莓派烧录操作系统，我使用的是Ubuntu-mate。
+
+2.安装或更新如下软件或包依赖。
+
+- Python 2.7或3.x(我使用的是2.7, 因为安装opencv方便)
+
+- Python依赖库：numpy, PIL, scipy, opencv, face_recognition
+
+- opencv可以直接使用apt-get安装python-opencv，因为我们只需要opencv读取视频，不需要opencv处理
+
+- face_recognition依赖dlib, 需要提前编译dlib
+
+3.连接摄像头。如果使用了USB分裂器，请确保电影供电充足。
+
+4.在程序的当前目录下创建picture文件夹，将你要识别的人的图片加入，同时修改程序中含路径的部分.不加入图片也没关系，可以通过窗口程序加入，但确保picture文件夹存在。
+
+5.运行main.py程序。
+
+如果你在安装运行的过程中遇到了一些问题，可以发邮件给我，或许我还记得那些bug怎么修复- -.
+
+Good Luck!
