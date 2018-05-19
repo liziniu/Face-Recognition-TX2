@@ -31,13 +31,14 @@ change_count = 0                                # for canvas image change
 current_names = []
 known_face_encodings = []
 known_face_names = []
+# opencv can only show character, but we transform it into Chinese on windows program
 known_face_map = {'Li Ziniu': '李子牛',
-	              'Zhang Pu': '张璞',
-		   		  'Jin Yinbin': '金印斌',
-		   		  'Yang Jianguo': '杨建国',
-		   		  'Zhang Hong': '张虹',
-		   		  'Shiyuan': '石原里美',
-		   		  'Unknown': '未知'}
+	           'Zhang Pu': '张璞',
+		   'Jin Yinbin': '金印斌',
+		   'Yang Jianguo': '杨建国',
+		   'Zhang Hong': '张虹',
+		   'Shiyuan': '石原里美',
+		   'Unknown': '未知'}
 
 def task_2():
     # 窗口显示程序
