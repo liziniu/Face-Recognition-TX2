@@ -3,7 +3,7 @@
 ## 效果预览
 
 <center>
- ![](https://github.com/liziniu/face_cognition/blob/master/face_recognition.gif)
+  <img src="https://github.com/liziniu/face_cognition/blob/master/face_recognition.gif">
 </center>
 
 ## 知识要求
