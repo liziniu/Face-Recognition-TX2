@@ -2,7 +2,9 @@
 
 ## 效果预览
 
-![](https://github.com/liziniu/face_cognition/blob/master/face_recognition.gif)
+<center>
+ ![](https://github.com/liziniu/face_cognition/blob/master/face_recognition.gif)
+</center>
 
 ## 知识要求
 1. Linux命令行。会简单的安装命令即可。
