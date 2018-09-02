@@ -3,7 +3,7 @@
 For Chinese, you can follow this [guide](/README-cn.md) to build the same system by yourself.
 
  <div align="center">
-  <img src="/assets/img/face_recognition_3.gif">
+  <img src="/img/face_recognition_3.gif">
 </div>
 
 Today, life is so convenient that you can easily complete payment, enter buildings and so on. What your need to identify is just your face.
