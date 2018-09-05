@@ -1,6 +1,6 @@
 ## Introduction
 
-For Chinese, you can follow this [guide](/README-cn.md) to build the same system by yourself.
+##### For Chinese, you can follow this [guide](/README-cn.md) to build the same system by yourself.
 
  <div align="center">
   <img src="/img/face_recognition_3.gif">
